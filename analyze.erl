@@ -1,7 +1,7 @@
 %%% This module takes care of the players and battings lists
 %%% Autor: Kai Janson
 %%% Date: 09/10/2014
-%%% Time-stamp: <2014-09-10 15:44:36 kai.janson>
+%%% Time-stamp: <2014-09-10 16:07:45 kai.janson>
 -module(analyze).
 -export([battings/1]).
 
@@ -118,7 +118,7 @@ combine([Head|Tail], List2, Acc, Players) ->
             %% later on
             [_PlayerId1,_Year1,_League1,_Team1,_G1,Ab1,_R1,H1,_B21,_B31,_Hr1,_Rbi1,_Sb1,_Cs1] = Data,
             case list_to_integer(Ab) > 0 andalso list_to_integer(H) > 0
-                andalso list_to_integer(Ab1) > 0 andalso list_to_integer(H1) > 0 of
+                andalso list_to_integer(Ab1) > 200 andalso list_to_integer(H1) > 0 of
                 true ->
                     %% We have a player in 2009 and 2010, so lets run numbers on that player
                     Old = list_to_integer(H) / list_to_integer(Ab),

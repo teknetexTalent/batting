@@ -34,18 +34,19 @@ Logging into the Operating System
 ---------------------------------
 The username for this exercise is
 
-   babe
-
+```bash
+babe
+```
 and the password is
-
+```bash
    Ruth
-
+```
 NOTE: Capitalization IS significant.
 
 Once you're logged in, type
-
+```bash
    cat README
-
+```
 to run the virtual machine.
 
 
@@ -59,25 +60,25 @@ I moved the developers exercise into a VirtualBox Appliance for a few reasons:
 
 Technologies Used:
 ------------------
-Ubuntu 14.04.1 LTS
-Erlang R15B03 64bit
-MySQL 5.5.38-0ubuntu0.14.04.1 (Ubuntu)
-Emysql 0.4.1 erlang MySQL driver
-GNU Emacs 24.3.1 with Erlang Syntax support 
+* Ubuntu 14.04.1 LTS
+* Erlang R15B03 64bit
+* MySQL 5.5.38-0ubuntu0.14.04.1 (Ubuntu)
+* Emysql 0.4.1 erlang MySQL driver
+* GNU Emacs 24.3.1 with Erlang Syntax support 
 
 
 Stopping the VirtualMachine:
 ----------------------------
 Execute
-
+```bash
    sudo halt
-
+```
 on the command line
 
 The password that the system is asking for is
-
+```bash
   Ruth
-
+```
 NOTE: Capitalization IS significant.
 
 Then you can turn off VirtualBox as well.

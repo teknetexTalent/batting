@@ -53,6 +53,7 @@ to run the virtual machine.
 Reasoning:
 ----------
 I moved the developers exercise into a VirtualBox Appliance for a few reasons:
+
 * I find it easier to provide a turn-key solution
 * My code and needed installation requirements do not interfere with your computer
 * I can make sure that all requirements are in place and that there are no issues that are outside my control

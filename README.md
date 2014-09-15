@@ -39,13 +39,13 @@ babe
 ```
 and the password is
 ```bash
-   Ruth
+Ruth
 ```
 NOTE: Capitalization IS significant.
 
 Once you're logged in, type
 ```bash
-   cat README
+cat README
 ```
 to run the virtual machine.
 
@@ -71,13 +71,13 @@ Stopping the VirtualMachine:
 ----------------------------
 Execute
 ```bash
-   sudo halt
+sudo halt
 ```
 on the command line
 
 The password that the system is asking for is
 ```bash
-  Ruth
+Ruth
 ```
 NOTE: Capitalization IS significant.
 
